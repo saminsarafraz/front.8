@@ -3,8 +3,9 @@ import React from 'react';
 
 const Canada = () => {
     return (
-        <div className='compelete'>
-            <p> espite Canada’s great size, it is one of the world’s most sparsely populated countries.
+        <div >
+            <h1>Canada</h1>
+            <p className='compelete'>espite Canada’s great size, it is one of the world’s most sparsely populated countries.
                 This fact, coupled with the grandeur of the landscape, has been central to the sense of Canadian national
                 identity, as expressed by the Dublin-born writer Anna Brownell Jameson,
                 who explored central Ontario in 1837 and remarked exultantly on “the seemingly interminable line of
@@ -14,9 +15,11 @@ const Canada = () => {
                 they have crafted what many observers consider to be a model multicultural society, welcoming immigrant
                 populations from every other continent. In addition,
                 Canada harbours and exports a wealth of natural
-                resources and intellectual capital equaled by few other countries.</p>
+                resources and intellectual capital equaled by few other countries
+            </p>
 
         </div>
+
     )
 }
 
